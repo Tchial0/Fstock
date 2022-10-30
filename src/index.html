@@ -22,14 +22,14 @@
                     <span class="p-3 fs-6"><span class="text-green">Fstock</span> <span
                             class="text-orange">Screenshots</span></span>
                 </a>
-                <a role="button" class="btn text-white" style="background-color: #f5734b;">Sobre</a>
+                <a data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" role="button" class="btn text-white" style="background-color: #f5734b;">Acerca</a>
             </div>
         </nav>
     </header>
     <main class="container-fluid p-3">
 
         <h1 class="display-5 text-green"># Módulo Administrativo</h1>
-        <hr/>
+        <hr />
 
         <div class="row g-3 my-3">
             <div class="col">
@@ -164,7 +164,7 @@
         </div>
 
         <h1 class="display-5 text-orange"># PDV - Frente de Caixa</h1>
-        <hr/>
+        <hr />
 
         <div class="row g-3 my-3">
             <div class="col">
@@ -172,8 +172,7 @@
                     <div class="position-relative">
                         <img class="card-img-top " src="./images/pdv.png" />
                         <div class="cover">
-                            <a class="btn btn-dark text-white" href="./images/pdv.png"
-                                target="_blank">Visualizar</a>
+                            <a class="btn btn-dark text-white" href="./images/pdv.png" target="_blank">Visualizar</a>
                         </div>
                     </div>
                     <div class="card-body">
@@ -188,8 +187,7 @@
                     <div class="position-relative">
                         <img class="card-img-top " src="./images/pdv2.png" />
                         <div class="cover">
-                            <a class="btn btn-dark text-white" href="./images/pdv2.png"
-                                target="_blank">Visualizar</a>
+                            <a class="btn btn-dark text-white" href="./images/pdv2.png" target="_blank">Visualizar</a>
                         </div>
                     </div>
                     <div class="card-body">
@@ -233,6 +231,27 @@
         </div>
 
     </main>
+
+    <footer>
+
+        <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom"
+            aria-labelledby="offcanvasBottomLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title">Acerca</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body small">
+                <p>
+                    <b>Fstock</b>  é sistema de gestão de estoque e vendas de produtos, é também uma software de faturação. Foi projetado para ser símples e fácil de usar.
+                    Sua capacidade de adaptação permite que o mesmo seja utilizado por médias e pequenas empresas vendedores de produtos materiais.
+                </p>
+               <p>
+                 Entre em contacto com o <a href="mailto:tchia.crocodile@gmail.com">Desenvolvedor.</a>
+               </p>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
