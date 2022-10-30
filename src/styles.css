@@ -1,0 +1,33 @@
+.text-green{
+    color:#009688;
+}
+
+.text-orange {
+    color: #FF5722;
+}
+
+
+.card {
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.card.scale-up:hover {
+    transform: translateY(-10px);
+}
+.card .cover {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity .5s ease;
+}
+.card .cover:hover {
+    opacity: 0.5;
+}
