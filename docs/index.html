@@ -7,6 +7,7 @@
     <title>Fstock Screenshots</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
@@ -14,6 +15,7 @@
 </head>
 
 <body>
+
     <header class="position-sticky top-0" style="z-index: 100;">
         <nav class="navbar bg-light shadow-sm">
             <div class="container-fluid">
@@ -22,18 +24,36 @@
                     <span class="p-3 fs-6"><span class="text-green">Fstock</span> <span
                             class="text-orange">Screenshots</span></span>
                 </a>
-                <a data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" role="button" class="btn text-white" style="background-color: #f5734b;">Acerca</a>
+                <div>
+                    <a href="https://www.github.com/tchial0" class="btn text-white"
+                        style="background-color: #f5734b;"><i class="bi-github"></i></a>
+                    <a href="mailto:tchialo.crocodile@gmail.com" class="btn text-white"
+                        style="background-color: #f5734b;"><i class="bi-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/tchialo-armando-22b240240/" class="btn text-white"
+                        style="background-color: #f5734b;"><i class="bi-linkedin"></i></a>
+                </div>
             </div>
         </nav>
     </header>
+
+    <section class="container-fluid">
+        <div class="alert alert-light my-3 shadow-sm bg-light">
+            <h6 class="alert-heading"><i class="bi-info-circle-fill"></i> Fstock </h6>
+            Sistema de gestão de estoque e vendas de produtos, é também uma software de
+            faturação. Foi projetado para ser símples e fácil de usar.
+            Sua capacidade de adaptação permite que o mesmo seja utilizado por médias e pequenas empresas
+            vendedores de produtos materiais.
+        </div>
+    </section>
+
     <main class="container-fluid p-3">
 
-        <h1 class="display-5 text-green"># Módulo Administrativo</h1>
+        <h1 class="display-6 text-green"># Módulo Administrativo</h1>
         <hr />
 
         <div class="row g-3 my-3">
-            <div class="col">
-                <div class="col card shadow scale-up">
+            <div class="col-12 col-lg-3">
+                <div class="card shadow scale-up">
                     <div class="position-relative">
                         <img class="card-img-top " src="./images/dashboard.png" />
                         <div class="cover">
@@ -49,7 +69,7 @@
                 </div>
             </div>
 
-            <div class="col">
+            <div class="col-12 col-lg-3">
                 <div class="card shadow scale-up">
                     <div class="position-relative">
                         <img class="card-img-top " src="./images/products.png" />
@@ -65,7 +85,7 @@
                 </div>
             </div>
 
-            <div class="col">
+            <div class="col-12 col-lg-3">
                 <div class="card shadow scale-up">
                     <div class="position-relative">
                         <img class="card-img-top " src="./images/product_edition.png" />
@@ -81,7 +101,7 @@
                 </div>
             </div>
 
-            <div class="col">
+            <div class="col-12 col-lg-3">
                 <div class="card shadow scale-up">
                     <div class="position-relative">
                         <img class="card-img-top " src="./images/categories.png" />
@@ -97,8 +117,9 @@
                 </div>
             </div>
         </div>
+
         <div class="row g-3 my-3">
-            <div class="col">
+            <div class="col-12 col-lg-3">
                 <div class="card shadow scale-up">
                     <div class="position-relative">
                         <img class="card-img-top " src="./images/products_stock.png" />
@@ -114,7 +135,7 @@
                 </div>
             </div>
 
-            <div class="col">
+            <div class="col-12 col-lg-3">
                 <div class="card shadow scale-up">
                     <div class="position-relative">
                         <img class="card-img-top " src="./images/cash_flow.png" />
@@ -130,7 +151,7 @@
                 </div>
             </div>
 
-            <div class="col">
+            <div class="col-12 col-lg-3">
                 <div class="card shadow scale-up">
                     <div class="position-relative">
                         <img class="card-img-top " src="./images/employees.png" />
@@ -146,7 +167,7 @@
                 </div>
             </div>
 
-            <div class="col">
+            <div class="col-12 col-lg-3">
                 <div class="card shadow scale-up">
                     <div class="position-relative">
                         <img class="card-img-top " src="./images/access_levels.png" />
@@ -163,12 +184,12 @@
             </div>
         </div>
 
-        <h1 class="display-5 text-orange"># PDV - Frente de Caixa</h1>
+        <h1 class="display-6 text-orange"># PDV - Frente de Caixa</h1>
         <hr />
 
         <div class="row g-3 my-3">
-            <div class="col">
-                <div class="col card shadow scale-up">
+            <div class="col-12 col-lg-3">
+                <div class="card shadow scale-up">
                     <div class="position-relative">
                         <img class="card-img-top " src="./images/pdv.png" />
                         <div class="cover">
@@ -182,7 +203,7 @@
                 </div>
             </div>
 
-            <div class="col">
+            <div class="col-12 col-lg-3">
                 <div class="card shadow scale-up">
                     <div class="position-relative">
                         <img class="card-img-top " src="./images/pdv2.png" />
@@ -197,7 +218,7 @@
                 </div>
             </div>
 
-            <div class="col">
+            <div class="col-12 col-lg-3">
                 <div class="card shadow scale-up">
                     <div class="position-relative">
                         <img class="card-img-top " src="./images/profile.png" />
@@ -213,7 +234,7 @@
                 </div>
             </div>
 
-            <div class="col">
+            <div class="col-12 col-lg-3">
                 <div class="card shadow scale-up">
                     <div class="position-relative">
                         <img class="card-img-top " src="./images/open_box.png" />
@@ -231,27 +252,6 @@
         </div>
 
     </main>
-
-    <footer>
-
-        <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom"
-            aria-labelledby="offcanvasBottomLabel">
-            <div class="offcanvas-header">
-                <h5 class="offcanvas-title">Acerca</h5>
-                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                    aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body small">
-                <p>
-                    <b>Fstock</b>  é sistema de gestão de estoque e vendas de produtos, é também uma software de faturação. Foi projetado para ser símples e fácil de usar.
-                    Sua capacidade de adaptação permite que o mesmo seja utilizado por médias e pequenas empresas vendedores de produtos materiais.
-                </p>
-               <p>
-                 Entre em contacto com o <a href="mailto:tchia.crocodile@gmail.com">Desenvolvedor.</a>
-               </p>
-            </div>
-        </div>
-    </footer>
 </body>
 
 </html>
